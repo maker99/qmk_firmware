@@ -52,12 +52,12 @@ see: https://github.com/maker99/zeal60/tree/KB104_and_2x4
     * the keys on all 4 layers can be changed, they will be stored in eeprom
     * additional on top of all qmk keycodes: 
     
-* backlight: https://github.com/maker99/qmk_firmware/blob/M104/keyboards/M/M104/zeal60_keycodes.h
+        * backlight: https://github.com/maker99/qmk_firmware/blob/M104/keyboards/M/M104/rgb_backlight_keycodes.h
 
-* macros: 
-    * see: https://github.com/maker99/qmk_firmware/blob/M104/keyboards/M/M104/zeal60_keycodes.h
-    
-    * example: https://github.com/maker99/zeal60/blob/KB104_and_2x4/keymaps/zeal104macros_default.sh
+        * macros: https://github.com/maker99/qmk_firmware/blob/M104/keyboards/M/M104/zeal60_keycodes.h
+
+* macros
+    * examples: https://github.com/maker99/zeal60/blob/KB104_and_2x4/keymaps/zeal104macros_default.sh
     * commands: macro_buffer_reset|macros_reset, get_macro_buffer|get_macros|macros_get, set_macro_buffer|set_macros|macros_set
     * 16 macros can be programmed, keycodes: MACRO00 - MACRO15 (https://github.com/maker99/qmk_firmware/blob/M104/keyboards/M/M104/zeal60_keycodes.h)
     * macros can use the codes for string_send (see https://github.com/maker99/qmk_firmware/blob/master/quantum/send_string_keycodes.h)
