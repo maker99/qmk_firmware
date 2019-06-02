@@ -39,9 +39,9 @@ see: https://github.com/maker99/zeal60/tree/KB104_and_2x4
     example: zealM104 bootloader
 * USB LED indicators: 
 
-  * example: zealM104  backlight_config_get_values [brightness|effect|effect_speed|caps_lock_indicator_color|num_lock_indicator_color|scroll_lock_indicator_color|layer_1_indicator_color|layer_2_indicator_color|layer_3_indicator_color|...]
+  * example: zealM104  backlight_config_get_values|backlight_config_set_values [brightness|effect|effect_speed|caps_lock_indicator_color|num_lock_indicator_color|scroll_lock_indicator_color|layer_1_indicator_color|layer_2_indicator_color|layer_3_indicator_color|...]
 
-  * change position, color and birghtness of the USB LED indicators
+  * change position, color and brightness of the USB LED indicators
         HSV: H=0-360, S=0-100, V=0-100 (will be ignored, use the 'brightness' command instead)
 
 * key layout:
